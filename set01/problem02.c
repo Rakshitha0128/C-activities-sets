@@ -8,7 +8,7 @@ int main()
     printf("Enter the second value");
     scanf("%d",&b);
     sum=a+b;
-    printf("The sum of %d and %d id %d",&sum);
+    printf("The sum of %d and %d id %d",a,b,sum);
     return 0;
 }
 

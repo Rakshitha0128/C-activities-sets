@@ -1,0 +1,9 @@
+Compilation started at 1/25/2024, 9:42:31 AM
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem04.c: In function 'main':
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem04.c:11:16: warning: passing argument 3 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+     output(a,b,add);
+                ^~~
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem04.c:4:6: note: expected 'int' but argument is of type 'void (*)(int,  int,  int *)'
+ void output (int a,int b,int sum);
+      ^~~~~~
+Compilation finished at 1/25/2024, 9:42:32 AM

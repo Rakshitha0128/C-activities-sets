@@ -1,0 +1,21 @@
+Compilation started at 1/25/2024, 9:46:59 AM
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c: In function 'compare':
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c:26:16: warning: 'return' with a value, in function returning void
+         return largest;
+                ^~~~~~~
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c:22:6: note: declared here
+ void compare(int a,int b,int c, int largest)
+      ^~~~~~~
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c:29:17: warning: 'return' with a value, in function returning void
+          return largest;
+                 ^~~~~~~
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c:22:6: note: declared here
+ void compare(int a,int b,int c, int largest)
+      ^~~~~~~
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c:32:16: warning: 'return' with a value, in function returning void
+         return largest;
+                ^~~~~~~
+c:\Users\HP\Documents\GitHub\C-activities-sets\set01\problem05.c:22:6: note: declared here
+ void compare(int a,int b,int c, int largest)
+      ^~~~~~~
+Compilation finished at 1/25/2024, 9:47:00 AM

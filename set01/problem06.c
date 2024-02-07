@@ -19,13 +19,13 @@ int input()
     scanf("%d",&x);
     return x;
 }
-void compare(int *a,int *b,int *c,*largest)
+void compare(int a,int b,int c,int *largest)
 {
-    if (a>b==a>c)
+    if (a>b&&a>c)
     {
         largest= a;
     }
-    else if (b>a==b>c)
+    else if (b>a&&b>c)
     {
         largest= b;
     }
@@ -35,5 +35,5 @@ void compare(int *a,int *b,int *c,*largest)
 }
 void output(int a,int b,int c,int largest)
 {
-    printf("the largest among %d,%dand%d is %d",a,b,c,largest)
+    printf("the largest among %d,%dand%d is %d",a,b,c,largest);
 }

@@ -5,7 +5,8 @@ int input_side();
 int check_scalene(int a, int b, int c);
 void output(int a, int b, int c, int isscalene);
 
-int main() {
+int main()
+ {
     int side1, side2, side3;
     int isScalene;
     side1 = input_side();

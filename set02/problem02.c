@@ -18,3 +18,32 @@ int main()
 
     return 0;
 }
+int input_side() 
+{
+    int side;
+    printf("Enter the length of a side: ");
+    scanf("%d", &side);
+    return side;
+}
+int check_scalene(int a, int b, int c) 
+{
+    if (a != b && a != c && b != c)
+     {
+        return 1; 
+    } 
+    else 
+    {
+        return 0; 
+    }
+}
+
+void output(int a, int b, int c, int isScalene)
+ {
+    printf("Sides of the triangle: %d, %d, %d\n", a, b, c);
+    if (isScalene)
+     {
+        printf("The triangle is scalene.\n");
+    } else {
+        printf("The triangle is not scalene.\n");
+    }
+}

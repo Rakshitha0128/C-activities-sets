@@ -11,4 +11,3 @@ int main()
     printf("The sum of %d and %d id %d",a,b,sum);
     return 0;
 }
-

@@ -1,13 +1,25 @@
 //Write a program to find the triangle with smallest area in n given triangles.
-typedef struct _triangle
- {
-	float base, altitude, area;
-} Triangle;
-int input_n();
+#include <stdio.h>
 
-Triangle input_triangle();
-void input_n_triangles(int n, Triangle t[n]);
-void find_area(Triangle *t);
-void find_n_areas(int n, Triangle t[n]);
-Triangle find_smallest_triangle(int n, Triangle t[n]);
-void output(int n, Triangle t[n], Triangle smallest);
+typedef struct _triangle 
+{
+    float base, altitude, area;
+} Triangle;
+
+int input_n()
+ {
+    int n;
+    printf("Enter the number of triangles: ");
+    scanf("%d", &n);
+    return n;
+}
+
+Triangle input_triangle()
+ {
+    Triangle t;
+    printf("Enter the base of the triangle: ");
+    scanf("%f", &t.base);
+    printf("Enter the altitude of the triangle: ");
+    scanf("%f", &t.altitude);
+    return t;
+}

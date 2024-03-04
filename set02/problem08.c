@@ -56,4 +56,15 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
     }
     return smallest;
 }
+void output(int n, Triangle t[n], Triangle smallest) 
+{
+    printf("\nTriangles:\n");
+    for (int i = 0; i < n; ++i)
+   {
+        printf("Triangle %d: Base=%.2f, Altitude=%.2f, Area=%.2f\n", i + 1, t[i].base, t[i].altitude, t[i].area);
+    }
+    printf("\nThe triangle with the smallest area:\n");
+    printf("Base=%.2f, Altitude=%.2f, Area=%.2f\n", smallest.base, smallest.altitude, smallest.area);
+}
+
 
